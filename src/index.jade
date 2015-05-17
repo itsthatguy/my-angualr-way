@@ -1,0 +1,18 @@
+doctype html
+html(ng-app="MyModule")
+  head
+    title your app
+    //- head:css
+    //- head css will go here...
+    //- endinject
+    meta(name="viewport" content="initial-scale=1, maximum-scale=1")
+    link(href="./index.css" rel="stylesheet" type="text/css")
+    link(href="images/icon.png" rel="icon" type="image/png")
+  body(style="-webkit-app-region: drag")
+    navbar
+    div(ui-view)
+    //- bower:js
+    //- bower installed scripts will go here...
+    //- endinject
+    script(src="./main.js")
+

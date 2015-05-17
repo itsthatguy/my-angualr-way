@@ -1,0 +1,30 @@
+{
+  "name": "my-angular-way",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular-animate": "~1.3.4",
+    "angular-cookies": "~1.3.4",
+    "angular-touch": "~1.3.4",
+    "angular-sanitize": "~1.3.4",
+    "jquery": "~2.1.4",
+    "angular-resource": "~1.3.4",
+    "angular-ui-router": "~0.2.13",
+    "foundation": "~5.5.1",
+    "angular-foundation": "~0.5.1",
+    "angular": "~1.3.4",
+    "angular-local-storage": "~0.1.5",
+    "angular-modal-service": "~0.6.6",
+    "vex": "~2.3.2",
+    "vague.js": "~0.0.6",
+    "angular-filter": "~0.5.4",
+    "owl.carousel": "*"
+  },
+  "devDependencies": {
+    "foundation": "~5.5.2"
+  },
+  "overrides": {
+    "owl.carousel": {
+      "main": ["dist/owl.carousel.js"]
+    }
+  }
+}
